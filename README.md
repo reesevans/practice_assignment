@@ -13,4 +13,4 @@ Just unzip the diet_data.zip file into your R working directory so that you've g
 
 Hopefully others will find this useful.
 
-Ok, this is some text I just added to proactice a little with Git and GitHub
+Ok, this is some text I just added to practice a little with Git and GitHub
