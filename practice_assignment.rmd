@@ -1,5 +1,5 @@
 ---
-output: pdf_document
+output: html_document
 ---
 Practice Assignment
 ========================================================
@@ -32,6 +32,12 @@ Okay, so we have 5 files.  Let's take a look at one to see what's inside:
 ```{r}
 andy <- read.csv("diet_data/Andy.csv")
 head(andy)
+```
+
+```{r}
+library(ggplot2)
+ggplot(andy,aes(x=Day,y=Weight)) + geom_point(color="Red") +
+      geom_line(color="Blue")
 ```
 
 It appears that the file has 4 columns, Patient.Name, Age, Weight, and Day.  Let's figure out how many rows there are by looking at the length of the 'Day' column:
